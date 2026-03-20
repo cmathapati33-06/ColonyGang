@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colony Gang | Portfolio & Memory Book</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <h1>Colony Gang</h1>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <p>Gathering Memories...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Colony<span>Gang</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#leader">Leader</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#members">The Gang</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#future">Future</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </nav>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-sphere s1"></div>
+            <div class="gradient-sphere s2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-reveal="bottom">
+                <span class="badge">Est. 2015 • The Colony Chronicles</span>
+                <h1>Colony Gang <br>Portfolio & <span>Memory Book</span></h1>
+                <p class="tagline">10 friends, 1 colony, endless memories. A digital scrapbook of a bond that never fades.</p>
+                <div class="hero-leader-credit">
+                    <div class="mini-avatar">
+                        <img src="assets/leader.jpg.jpg" alt="Leader">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <span>Curated & Managed by <strong>Chetan M</strong></span>
+                </div>
+                <div class="hero-btns">
+                    <a href="#members" class="btn btn-primary">Meet the Gang</a>
+                    <a href="#gallery" class="btn btn-secondary">View Memories</a>
+                </div>
+            </div>
+            <div class="hero-image" data-reveal="right">
+                <div class="main-photo-frame">
+                    <img src="assets/gang-group-photo.jpg.jpeg" alt="Gang Group Photo">
+                    <div class="floating-badge">
+                        <i class="fas fa-users"></i>
+                        <span>10 Strong</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leader Spotlight -->
+    <section id="leader" class="leader-spotlight">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <span class="subtitle">The Visionary</span>
+                <h2>The <span>Gang's Architect</span></h2>
+            </div>
+            <div class="leader-card-wrapper" data-reveal="bottom">
+                <div class="leader-card glass">
+                    <div class="leader-image">
+                        <img src="assets/leader.jpg.jpg" alt="Leader Photo">
+                        <div class="leader-badges">
+                            <span class="badge leader-tag"><i class="fas fa-crown"></i> Gang Leader</span>
+                            <span class="badge admin-tag"><i class="fas fa-user-shield"></i> Site Admin / Creator</span>
+                        </div>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Chetan M <span class="nickname">"kalki"</span></h3>
+                        <p class="quote">"It's not about where we go, but who we're with. This colony is our universe."</p>
+                        <div class="leader-details">
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span><strong>Branch:</strong> BE</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-gamepad"></i>
+                                <span><strong>Hobbies:</strong> Coding, BGMI, Cricket, Shokdar</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span><strong>Role:</strong> The Planner & Backbone</span>
+                            </div>
+                        </div>
+                        <div class="leader-vision">
+                            <h4>Vision for the Group</h4>
+                            <p>To keep this brotherhood alive through the decades, ensuring we never become strangers despite where life takes us.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/kalki__33_?igsh=cnhxbHEzcXpib2dh"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/Chetan-M"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text" data-reveal="left">
+                    <span class="subtitle">Our Story</span>
+                    <h2>How the <span>Colony Gang</span> Started</h2>
+                    <p>What started as random meetings at the colony gate grew into a brotherhood that defined our youth. From late-night tea stalls to life-changing career decisions, we've seen it all together.</p>
+                    <p>Led by Chetan M, we've managed to stay united despite the chaos of exams, moving cities, and starting careers. This is more than a group; it's a family built on trust, laughter, and shared dreams.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4>10+</h4>
+                            <span>Years Together</span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>500+</h4>
+                            <span>Hangouts</span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Unlimited</h4>
+                            <span>Roasts</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-reveal="right">
+                    <div class="collage">
+                        <div class="collage-item p1"><img src="assets/about/WhatsApp Image 2026-03-20 at 1.56.29 PM.jpeg" alt="Memory" style="object-fit: contain; object-position: center; width: 100%; height: 100%;"></div>
+                        <div class="collage-item p2"><img src="assets/about/WhatsApp Image 2026-03-20 at 2.00.51 PM.jpeg" alt="Memory" style="object-fit: contain; object-position: center; width: 100%; height: 100%;"></div>
+                        <div class="collage-item p3"><img src="assets/about/1738767184951.JPG" alt="Memory" style="object-fit: contain; object-position: center; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <span class="subtitle">The Brotherhood</span>
+                <h2>Meet the <span>Gang Members</span></h2>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="MBA">MBA</button>
+                    <button class="filter-btn" data-filter="BE">BE</button>
+                    <button class="filter-btn" data-filter="BCom">BCom</button>
+                </div>
+            </div>
+            <div class="members-grid">
+                <!-- Leader Card (Marked) -->
+                <div class="member-card glass featured" data-category="BE" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/leader.jpg.jpg" alt="Member">
+                                <div class="member-badges">
+                                    <span class="badge leader"><i class="fas fa-crown"></i> Leader</span>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h3>Chetan M</h3>
+                                <p>kalki</p>
+                                <span class="branch-tag">BE</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Chetan M</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Captain</span>
+                                <span><strong>Hobbies:</strong> Coding, BGMI, Cricket</span>
+                                <span><strong>Goal:</strong> Tech Entrepreneur</span>
+                            </div>
+                            <p class="member-quote">"Always leading the way."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/kalki__33_?igsh=cnhxbHEzcXpib2dh"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/Chetan-M"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 2: Vinayak H -->
+                <div class="member-card glass" data-category="BCom" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member1.jpeg" alt="Member" style="object-position: center;">
+                            </div>
+                            <div class="member-info">
+                                <h3>Vinayak H</h3>
+                                <p>Ganapati</p>
+                                <span class="branch-tag">BCom</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Vinayak H</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Creative Soul</span>
+                                <span><strong>Hobbies:</strong> Cricket, Badminton</span>
+                                <span><strong>Goal:</strong> Business Consultant</span>
+                            </div>
+                            <p class="member-quote">"Turning ideas into reality."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/vinayak_hunashyal1122?utm_source=qr&igsh=MTdpejBnYm53NnIzYQ=="><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/vinayak-hunashyal-530065225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other 8 members with different categories -->
+                <!-- Member 3: Akash H -->
+                <div class="member-card glass" data-category="MBA" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member2.jpeg" alt="Member">
+                            </div>
+                            <div class="member-info">
+                                <h3>Akash H</h3>
+                                <p>kariii</p>
+                                <span class="branch-tag">MBA</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Akash H</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Mood Maker</span>
+                                <span><strong>Hobbies:</strong> Cricket and gaming</span>
+                                <span><strong>Goal:</strong> Business</span>
+                            </div>
+                            <p class="member-quote">"Bringing the energy to every hangout."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/akash.hunashyal?igsh=NnRjdzhrczJxYTdu"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/akash-hunashyal-1b43b2187?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 4: Harsha H -->
+                <div class="member-card glass" data-category="MBA" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member3.jpeg" alt="Member">
+                            </div>
+                            <div class="member-info">
+                                <h3>Harsha H</h3>
+                                <p>haryaaa</p>
+                                <span class="branch-tag">MBA</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Harsha H</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Melody Maker</span>
+                                <span><strong>Hobbies:</strong> Cricket and Badminton</span>
+                                <span><strong>Goal:</strong> Business Consultant</span>
+                            </div>
+                            <p class="member-quote">"Harmony in every memory."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/harsha_hunashyal?igsh=MWdmdHAwbnJkb2dibQ=="><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/harsha-hunashyal-843736275?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 5: Darshan H -->
+                <div class="member-card glass" data-category="BCom" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member5.jpeg" alt="Member" style="object-position: center;">
+                            </div>
+                            <div class="member-info">
+                                <h3>Darshan H</h3>
+                                <p>Danappa</p>
+                                <span class="branch-tag">BCom</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Darshan H</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Travel Guide</span>
+                                <span><strong>Hobbies:</strong> BGMI and Badminton</span>
+                                <span><strong>Goal:</strong> Travel Journalist</span>
+                            </div>
+                            <p class="member-quote">"Exploring the world, one colony at a time."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/darshan__h18?igsh=Zmo3YXVvamVwZ2lm"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/danappa-hunashyal-278654375?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 6: Supreet S -->
+                <div class="member-card glass" data-category="BE" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member6.jpeg" alt="Member">
+                            </div>
+                            <div class="member-info">
+                                <h3>Supreet S</h3>
+                                <p>Nanna</p>
+                                <span class="branch-tag">BE</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Supreet S</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Frontend Developer</span>
+                                <span><strong>Hobbies:</strong> Cricket, Badminton, BGMI</span>
+                                <span><strong>Goal:</strong> Project Manager</span>
+                            </div>
+                            <p class="member-quote">"Crafting digital experiences."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/supreet__shirol?igsh=YzRrODJ6dzM5cG4z&utm_source=ig_contact_invite"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/supreet-d-s-1585b4222?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 7: Priyadarshini H -->
+                <div class="member-card glass" data-category="BCom" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member7.jpeg" alt="Member" style="object-fit: contain; object-position: center;">
+                            </div>
+                            <div class="member-info">
+                                <h3>Priyadarshini H</h3>
+                                <p>padevva</p>
+                                <span class="branch-tag">BCom</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Priyadarshini H</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Dance choreography</span>
+                                <span><strong>Hobbies:</strong> dancing, singing</span>
+                                <span><strong>Goal:</strong> Dancer</span>
+                            </div>
+                            <p class="member-quote">"Expressing emotions through movement."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/priyadarshini_hunashyal?igsh=cHZ5bjU1YjZzYWxu"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/priyadarshini-hunashyal-b351b8319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 8: Sumeet S -->
+                <div class="member-card glass" data-category="BE" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member8.jpeg" alt="Member" style="object-position: center;">
+                            </div>
+                            <div class="member-info">
+                                <h3>Sumeet S</h3>
+                                <p>Munna</p>
+                                <span class="branch-tag">BE</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Sumeet S</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Fitness Freak</span>
+                                <span><strong>Hobbies:</strong> Cricket, yoga, and BGMI</span>
+                                <span><strong>Goal:</strong> backend developer</span>
+                            </div>
+                            <p class="member-quote">"Strength in mind and body."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/sumeetshirol05?igsh=MWNhN2l1OXB6NXhiZQ=="><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/sumeet-shirol-922554318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 9: veena H -->
+                <div class="member-card glass" data-category="BE" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member 9.jpeg" alt="Member" style="object-fit: contain; object-position: center;">
+                            </div>
+                            <div class="member-info">
+                                <h3>veena H</h3>
+                                <p>Gonnii</p>
+                                <span class="branch-tag">BE</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>veena H</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> Taste Tester</span>
+                                <span><strong>Hobbies:</strong> Cooking, Vlogging, Badminton</span>
+                                <span><strong>Goal:</strong> Researcher</span>
+                            </div>
+                            <p class="member-quote">"Exploring the world of flavors."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/vini____18?utm_source=qr&igsh=MTljZzhiNnVhcjlrYw=="><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/veena-hunashyal-55095b3b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 10: vishwa jkd -->
+                <div class="member-card glass" data-category="BE" data-reveal="bottom">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="member-img">
+                                <img src="assets/member10.jpeg" alt="Member" style="object-fit: contain; object-position: center;">
+                            </div>
+                            <div class="member-info">
+                                <h3>vishwa jkd</h3>
+                                <p>online gamer</p>
+                                <span class="branch-tag">BE</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>vishwa jkd</h3>
+                            <div class="member-meta">
+                                <span><strong>Role:</strong> online gamer</span>
+                                <span><strong>Hobbies:</strong> otp, gambling</span>
+                                <span><strong>Goal:</strong> wining Dream 11</span>
+                            </div>
+                            <p class="member-quote">"All in, every time."</p>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/cl_me_jkd_vishwa?igsh=aDI5bHVuczlkbDds"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/vishwanath-jamakhandi-2b6b793b8"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <button class="view-more-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <span class="subtitle">Our Journey</span>
+                <h2>Memory <span>Timeline</span></h2>
+            </div>
+            <div class="timeline-wrapper">
+                <div class="timeline-line"></div>
+                <!-- Item 1 -->
+                <div class="timeline-item" data-reveal="left">
+                    <div class="timeline-dot"><i class="fas fa-home"></i></div>
+                    <div class="timeline-content glass">
+                        <span class="date">Summer 2015</span>
+                        <h3>The First Meet</h3>
+                        <p>Where it all began at the colony's central park. 10 strangers became a gang.</p>
+                        <img src="assets/timeline/The First Meet.jpeg" alt="Memory" style="object-fit: contain; object-position: center;">
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="timeline-item right" data-reveal="right">
+                    <div class="timeline-dot"><i class="fas fa-plane"></i></div>
+                    <div class="timeline-content glass">
+                        <span class="date">December 2017</span>
+                        <h3>First Trip Together</h3>
+                        <p>lokhapur. Freezing cold but the warmest memories with the best people.</p>
+                        <img src="assets/timeline/First Trip Together.jpeg" alt="Memory" style="object-fit: contain; object-position: center;">
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="timeline-item" data-reveal="left">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content glass">
+                        <span class="date">May 2021</span>
+                        <h3>family function</h3>
+                        <p>its feel diff when we eat together with more roasts and laugh.</p>
+                        <img src="assets/timeline/family function.jpeg" alt="Memory" style="object-fit: contain; object-position: center;">
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="timeline-item right" data-reveal="right">
+                    <div class="timeline-dot featured"><i class="fas fa-crown"></i></div>
+                    <div class="timeline-content glass highlight">
+                        <span class="date">August 2023</span>
+                        <h3>Gang Leader's Bash</h3>
+                        <p>The legendary birthday celebration that Chetan M organized. A night to remember!</p>
+                        <img src="assets/gang-group-photo.jpg.jpeg" alt="Memory" style="object-fit: contain; object-position: center;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <span class="subtitle">Visual Memories</span>
+                <h2>The <span>Gallery</span></h2>
+                <div class="gallery-filters">
+                    <button class="g-filter-btn active" data-gfilter="all">All</button>
+                    <button class="g-filter-btn" data-gfilter="trips">Trips</button>
+                    <button class="g-filter-btn" data-gfilter="birthdays">Birthdays</button>
+                    <button class="g-filter-btn" data-gfilter="random">Random</button>
+                </div>
+            </div>
+            <div class="gallery-grid" data-reveal="bottom">
+                <div class="gallery-item" data-gcat="trips"><img src="assets/trips/WhatsApp Image 2026-03-20 at 1.56.29 PM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="trips"><img src="assets/trips/WhatsApp Image 2026-03-20 at 2.00.50 PM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="trips"><img src="assets/trips/WhatsApp Image 2026-03-20 at 2.00.51 PM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="trips"><img src="assets/trips/WhatsApp Image 2026-03-21 at 12.12.02 AM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                
+                <div class="gallery-item" data-gcat="birthdays"><img src="assets/birthday/IMG-20201220-WA0007.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="birthdays"><img src="assets/birthday/IMG-20201220-WA0016.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="birthdays"><img src="assets/birthday/WhatsApp Image 2026-03-21 at 12.08.40 AM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="birthdays"><img src="assets/birthday/WhatsApp Image 2026-03-21 at 12.10.12 AM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                
+                <!-- Random Category - 17 Items -->
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/1000268414.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/1640863947835.JPG" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/1738767183362.JPG" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/1738767184951.JPG" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20201026-WA0034.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20210101-WA0000.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20210214-WA0019.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20210626-WA0012.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20210801-WA0017.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20211202-WA0008.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20211202-WA0014.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG-20211229-WA0002.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG_20220106_204650_699.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/IMG_20240204_132852.jpg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/WhatsApp Image 2026-03-20 at 11.24.30 PM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random"><img src="assets/random/WhatsApp Image 2026-03-20 at 2.00.51 PM.jpeg" alt="Gallery" style="object-fit: contain; object-position: center;"></div>
+                <div class="gallery-item" data-gcat="random">
+                    <video controls style="width: 100%; height: 100%; object-fit: contain; border-radius: 20px;">
+                        <source src="assets/random/WhatsApp Video 2026-03-20 at 11.53.30 PM.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fun Facts / Awards -->
+    <section id="awards" class="awards">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <span class="subtitle">Just for Fun</span>
+                <h2>Gang <span>Awards</span></h2>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card glass" data-reveal="zoom">
+                    <div class="award-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Most Late</h3>
+                    <p>Priyadarshini H</p>
+                    <span class="award-badge">Always 2h Late</span>
+                </div>
+                <div class="award-card glass featured" data-reveal="zoom">
+                    <div class="award-icon"><i class="fas fa-crown"></i></div>
+                    <h3>The Captain</h3>
+                    <p>Chetan M</p>
+                    <span class="award-badge">Admin Boss</span>
+                </div>
+                <div class="award-card glass" data-reveal="zoom">
+                    <div class="award-icon"><i class="fas fa-laugh-squint"></i></div>
+                    <h3>Best Joker</h3>
+                    <p>vishwa jkd</p>
+                    <span class="award-badge">Roast Master</span>
+                </div>
+                <div class="award-card glass" data-reveal="zoom">
+                    <div class="award-icon"><i class="fas fa-camera"></i></div>
+                    <h3>Selfie King</h3>
+                    <p>Akash H</p>
+                    <span class="award-badge">1000 Photos/Day</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branch / Career Paths Section -->
+    <section id="careers" class="careers">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <span class="subtitle">Future Leaders</span>
+                <h2>Our <span>Career Paths</span></h2>
+            </div>
+            <div class="career-tabs" data-reveal="bottom">
+                <div class="career-card glass">
+                    <div class="career-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>MBA Squad</h3>
+                    <p>Focused on business strategy, marketing, and leadership. Our future CEOs and entrepreneurs.</p>
+                    <ul class="career-skills">
+                        <li>Management</li>
+                        <li>Finance</li>
+                        <li>Marketing</li>
+                    </ul>
+                </div>
+                <div class="career-card glass featured">
+                    <div class="career-icon"><i class="fas fa-code"></i></div>
+                    <h3>BE Warriors</h3>
+                    <p>The tech backbone. Solving complex problems with code and engineering excellence.</p>
+                    <ul class="career-skills">
+                        <li>Software Dev</li>
+                        <li>Data Science</li>
+                        <li>Robotics</li>
+                    </ul>
+                </div>
+                <div class="career-card glass">
+                    <div class="career-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>BCom Titans</h3>
+                    <p>Masters of commerce, accounting, and trade. Driving the economy forward.</p>
+                    <ul class="career-skills">
+                        <li>Accounting</li>
+                        <li>Taxation</li>
+                        <li>Investment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Messages / Guestbook -->
+    <section id="messages" class="messages">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <span class="subtitle">Heart to Heart</span>
+                <h2>Member <span>Messages</span></h2>
+            </div>
+            <div class="sticky-notes">
+                <div class="note glass" data-reveal="fade">
+                    <p>"This gang is my second family. Love you all!"</p>
+                    <span class="note-author">-Vinayak H </span>
+                </div>
+                <div class="note glass leader-note" data-reveal="fade">
+                    <p>"I'm proud to lead such a talented and loyal group. Let's keep this going forever."</p>
+                    <span class="note-author">- Chetan M (Admin)</span>
+                </div>
+                <div class="note glass" data-reveal="fade">
+                    <p>"No matter where we go, the colony will always be home."</p>
+                    <span class="note-author">- Darshan H</span>
+                </div>
+                <div class="note glass" data-reveal="fade">
+                    <p>"To many more trips and many more roasts!"</p>
+                    <span class="note-author">- Priyadarshini H</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Dreams -->
+    <section id="future" class="future">
+        <div class="container">
+            <div class="future-content" data-reveal="bottom">
+                <span class="subtitle">Looking Ahead</span>
+                <h2>Future <span>Dreams</span> & Reunion</h2>
+                <p>Our promise to each other: No matter how busy life gets, we meet every year for a grand reunion. 2030 is already on the calendar!</p>
+                <div class="future-grid">
+                    <div class="future-item">
+                        <i class="fas fa-globe-americas"></i>
+                        <h4>World Tour 2028</h4>
+                        <p>Europe trip planned and managed by our Leader.</p>
+                    </div>
+                    <div class="future-item">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Business Ventures</h4>
+                        <p>Starting a tech-hub together in the colony.</p>
+                    </div>
+                </div>
+                <div class="countdown glass">
+                    <div class="count-item">
+                        <span id="days">00</span>
+                        <p>Days</p>
+                    </div>
+                    <span>:</span>
+                    <div class="count-item">
+                        <span id="hours">00</span>
+                        <p>Hours</p>
+                    </div>
+                    <span>:</span>
+                    <div class="count-item">
+                        <span id="minutes">00</span>
+                        <p>Mins</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Colony<span>Gang</span></a>
+                    <p>10 Friends. 1 Bond. Forever.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#leader">Leader</a>
+                    <a href="#members">Members</a>
+                    <a href="#gallery">Gallery</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-snapchat"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Colony Gang Portfolio. Created with <i class="fas fa-heart"></i> by the Gang.</p>
+                <p class="admin-credit">Designed & Managed by <strong>Chetan M</strong> | Site Admin</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Member Details -->
+    <div class="modal" id="memberModal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
